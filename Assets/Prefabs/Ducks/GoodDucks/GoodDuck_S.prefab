@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1339619373891858794}
   - component: {fileID: 5640780115888115071}
   - component: {fileID: 4603626279781314114}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GoodDuck_S
   m_TagString: GoodDuck
   m_Icon: {fileID: 0}
@@ -29,8 +29,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cbbf0ce3f4a7b3242ba74f0cea143b13, type: 3}
+  m_Sprite: {fileID: -5405664254719622069, guid: 2cfc85d97a41be74898feee5d0e109a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.99, y: 0.74}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -152,8 +152,6 @@ MonoBehaviour:
   moveSpeed: 0
   destroyEffect: {fileID: 0}
   clickSound: {fileID: 0}
-  successParticles: {fileID: 0}
-  successSound: {fileID: 0}
+  successParticles: {fileID: 4142242655818825285, guid: 75288d0950a13754fa64e05395b356a1, type: 3}
   successTextPrefab: {fileID: 0}
   spriteRenderer: {fileID: 1339619373891858794}
-  lowLifetimeColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

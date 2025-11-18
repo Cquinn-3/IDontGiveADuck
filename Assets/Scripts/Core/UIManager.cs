@@ -68,12 +68,12 @@ public class UIManager : MonoBehaviour
     /// </summary>
     void Awake()
     {
-        // Store the original timer colour so we can restore it later
-        if (timerText != null)
-            originalTimerColor = timerText.color;
+        //// Store the original timer colour so we can restore it later
+        //if (timerText != null)
+        //    originalTimerColor = timerText.color;
         
-        // Set up all button click listeners
-        SetupButtonListeners();
+        //// Set up all button click listeners
+        //SetupButtonListeners();
     }
     
     /// <summary>
@@ -82,6 +82,14 @@ public class UIManager : MonoBehaviour
     /// </summary>
     void Start()
     {
+        // Store the original timer colour so we can restore it later
+        if (timerText != null)
+            originalTimerColor = timerText.color;
+
+        // Set up all button click listeners
+        SetupButtonListeners();
+
+
         // Subscribe to GameManager events so UI updates automatically
         // This is an example of the Observer pattern - UI "listens" for game changes
         if (GameManager.Instance != null)
