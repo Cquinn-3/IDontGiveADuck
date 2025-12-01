@@ -3821,9 +3821,9 @@ ParticleSystem:
   LightsModule:
     enabled: 1
     ratio: 0
-    light: {fileID: 0}
+    light: {fileID: 1501452575800430133, guid: a75ea1f836aa8ff45acdd66679346592, type: 3}
     randomDistribution: 1
-    color: 1
+    color: 0
     range: 1
     intensity: 1
     rangeCurve:
