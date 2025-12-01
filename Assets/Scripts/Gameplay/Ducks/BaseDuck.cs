@@ -170,8 +170,7 @@ public abstract class BaseDuck : MonoBehaviour
     /// </summary>
     protected virtual void HandleMovement()
     {
-        // Base implementation - no movement
-        // Override in child classes for moving ducks
+        transform.position += new Vector3(Time.deltaTime * 5f, 0);
     }
     
     /// <summary>

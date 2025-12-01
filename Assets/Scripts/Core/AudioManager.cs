@@ -38,7 +38,9 @@ public class AudioManager : MonoBehaviour
     [Header("Duck Sounds")]
     [SerializeField] private AudioClip duckClickDecoySound; // Sound when clicking decoy duck
     [SerializeField] private AudioClip duckClickGoodSound;  // Sound when clicking good duck
+    [SerializeField] private AudioClip GunShout; // Sound when clicking decoy duck
     
+
     [Header("Volume Settings")]
     [Range(0f, 1f)] public float masterVolume = 1f;   // Overall volume control
     [Range(0f, 1f)] public float musicVolume = 0.5f;  // Music-specific volume
@@ -310,11 +312,20 @@ public class AudioManager : MonoBehaviour
             PlaySFXAtPosition(duckClickGoodSound, position);
         }
     }
-    
+
+
+    public void PlayGunShout(Vector3 position)
+    {
+        if (duckClickDecoySound != null)
+        {
+            PlaySFXAtPosition(duckClickDecoySound, position);
+        }
+    }
+
     #endregion
-    
+
     #region Volume Control
-    
+
     /// <summary>
     /// Updates all audio sources with current volume settings
     /// 

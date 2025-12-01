@@ -8,7 +8,7 @@ public class GoodDuck : BaseDuck
     [Header("Good Duck Settings")]
     [SerializeField] private ParticleSystem successParticles;
     [SerializeField] private GameObject successTextPrefab; // Optional floating text
-    
+    [SerializeField] private shakegun sartshake;
     [Header("Visual Feedback")]
     [SerializeField] private SpriteRenderer spriteRenderer;
    
@@ -18,9 +18,12 @@ public class GoodDuck : BaseDuck
         base.Start();
         
     }
-    
+
     #region Abstract Implementation
-    
+    private void Awake()
+    {
+        sartshake = Camera.main.GetComponent<shakegun>();
+    }
     protected override void OnClicked()
     {
         Debug.Log($"Good duck clicked! Awarded {pointValue} points");
@@ -33,7 +36,7 @@ public class GoodDuck : BaseDuck
         
         // Play success feedback
         PlaySuccessEffects();
-        
+        sartshake.start = true;
         // Destroy duck
         DestroyDuck();
     }

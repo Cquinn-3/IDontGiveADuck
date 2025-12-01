@@ -149,9 +149,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointValue: 5
   lifetime: 5
-  moveSpeed: 0
+  moveSpeed: 13.04
   destroyEffect: {fileID: 0}
-  clickSound: {fileID: 0}
-  successParticles: {fileID: 4142242655818825285, guid: 75288d0950a13754fa64e05395b356a1, type: 3}
+  clickSound: {fileID: 8300000, guid: ca1706a7eba9435499131ac1a9763652, type: 3}
+  successParticles: {fileID: 844055315940109551, guid: f532199f9917e11429bdd8782ac48863, type: 3}
   successTextPrefab: {fileID: 0}
+  sartshake: {fileID: 9198415360661992025, guid: 08a1e3b10289b7547998fd6c1be0ed0f, type: 3}
   spriteRenderer: {fileID: 1339619373891858794}

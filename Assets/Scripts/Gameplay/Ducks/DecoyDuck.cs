@@ -14,12 +14,16 @@ public class DecoyDuck : BaseDuck
     [Header("Visual Distinction")]
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private bool subtleVisualDifference = true; // Make it harder to distinguish
-    
+    [SerializeField] private shakegun sartshake;
     #region Initialization Override
-    
+
     /// <summary>
     /// Initialise decoy duck with custom properties
     /// </summary>
+    private void Awake()
+    {
+        sartshake = Camera.main.GetComponent<shakegun>();
+    }
     public override void Initialize(float customLifetime = -1, int customPointValue = -1)
     {
         base.Initialize(customLifetime, customPointValue);
@@ -41,7 +45,7 @@ public class DecoyDuck : BaseDuck
         
         // Play penalty feedback
         PlayPenaltyEffects();
-        
+        sartshake.start=true;
         // Destroy duck
         DestroyDuck();
     }

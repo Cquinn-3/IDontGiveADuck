@@ -21,8 +21,9 @@ public class GameManager : MonoBehaviour
     [Header("Game Configuration")]
     [SerializeField] private int startingLives = 1;    // Number of lives player starts with
     [SerializeField] private int currentLevelId = 1;   // Current level being played
-    
-    [Header("Testing Tools")]
+    [SerializeField] private shakegun screenShake;
+
+   [Header("Testing Tools")]
     [SerializeField] private int testLevelId = 12;     // Level to jump to for testing
     [SerializeField] private bool enableTestTools = true; // Enable/disable test tools in inspector
     
@@ -385,7 +386,11 @@ public class GameManager : MonoBehaviour
         goodDucksClicked++;
         
         OnScoreChanged?.Invoke(score);
-        
+        //if (screenShake != null)
+        //{
+        //    screenShake.start = true;
+        //}
+
         // Check win condition - player got required good ducks
         if (goodDucksClicked >= currentLevel.goodDucks)
         {
@@ -421,7 +426,10 @@ public class GameManager : MonoBehaviour
         // Apply time penalty from level configuration
         timeLeft -= currentLevel.decoyPenalty;
         OnTimeChanged?.Invoke(timeLeft);
-        
+        //if(screenShake !=null)
+        //{
+        //    screenShake.start=true;
+        //}
         // Check if penalty caused game over
         if (timeLeft <= 0)
         {
