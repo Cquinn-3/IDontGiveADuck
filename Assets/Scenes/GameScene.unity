@@ -457,7 +457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 662.8, y: 64.91}
+  m_AnchoredPosition: {x: 824, y: 50}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &80962718
@@ -807,8 +807,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 329.7, y: 64.91}
-  m_SizeDelta: {x: 197.6744, y: 107.2897}
+  m_AnchoredPosition: {x: 447.7, y: 46.355}
+  m_SizeDelta: {x: 177.6335, y: 107.2897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &422073455
 MonoBehaviour:
@@ -895,7 +895,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -88.15393, y: 0, z: 30.753174, w: 0}
+  m_margin: {x: -88.1488, y: 0, z: 30.753174, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2250,7 +2250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 290.6, y: 75.489}
+  m_AnchoredPosition: {x: 289, y: 60.579}
   m_SizeDelta: {x: 422.6707, y: 78.8415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1024446085
@@ -2388,8 +2388,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.83722, y: -0.0016403}
-  m_SizeDelta: {x: 1507.6, y: 719.67}
+  m_AnchoredPosition: {x: -11.7037, y: -1.6994}
+  m_SizeDelta: {x: 2559.4385, y: 1339.189}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1061021107
 MonoBehaviour:
@@ -2650,7 +2650,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.9938326}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1431.3, y: 70.316}
+  m_AnchoredPosition: {x: 1924.2, y: 51.07}
   m_SizeDelta: {x: 264.7717, y: 101.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1198246229
@@ -3267,9 +3267,9 @@ MonoBehaviour:
   gameOverMusic: {fileID: 0}
   victoryMusic: {fileID: 0}
   tutorialTheme: {fileID: 8300000, guid: 17ba4253fc7fd4ea7804dece25fb8f32, type: 3}
-  actionTheme: {fileID: 8300000, guid: b77acbb374058480dbeae07444542e03, type: 3}
-  challengeTheme: {fileID: 8300000, guid: ae40a015c678644b0ac6139e22717c04, type: 3}
-  bossTheme: {fileID: 8300000, guid: ab372a7a374be074cb54cb03af2b1625, type: 3}
+  actionTheme: {fileID: 8300000, guid: 14a1cf915de1c2448b200ab123c01445, type: 3}
+  challengeTheme: {fileID: 8300000, guid: d9e280ca0b9d3ad4f83da6d4defd2c91, type: 3}
+  bossTheme: {fileID: 8300000, guid: 14a1cf915de1c2448b200ab123c01445, type: 3}
   levelStartSound: {fileID: 0}
   levelCompleteSound: {fileID: 0}
   gameOverSound: {fileID: 0}
@@ -3277,7 +3277,7 @@ MonoBehaviour:
   duckClickGoodSound: {fileID: 8300000, guid: 92648bc8bb61f2142ad3ae9708c86a30, type: 3}
   GunShout: {fileID: 8300000, guid: ca1706a7eba9435499131ac1a9763652, type: 3}
   masterVolume: 1
-  musicVolume: 0.557
+  musicVolume: 0.113
   sfxVolume: 0.426
 --- !u!4 &1539604450
 Transform:
@@ -3456,8 +3456,8 @@ Transform:
   m_GameObject: {fileID: 1745143518}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -753.1717, y: -651.7028, z: 0}
-  m_LocalScale: {x: 2.4928515, y: 2.3017275, z: 1}
+  m_LocalPosition: {x: -1114.83, y: -889.93, z: -0}
+  m_LocalScale: {x: 2.5030825, y: 1.875656, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 482043632}
